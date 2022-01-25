@@ -1,0 +1,5 @@
+package org.generation.MinhaLojaDeGames.controller;
+
+public class Produto {
+
+}

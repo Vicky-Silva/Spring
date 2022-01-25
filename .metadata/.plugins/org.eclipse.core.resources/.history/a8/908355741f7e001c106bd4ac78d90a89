@@ -1,0 +1,5 @@
+package org.generation.LojaGames.controller;
+
+public class Categoria {
+
+}

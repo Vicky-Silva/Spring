@@ -1,0 +1,5 @@
+package org.generation.LojaGames.model;
+
+public class Produto {
+
+}

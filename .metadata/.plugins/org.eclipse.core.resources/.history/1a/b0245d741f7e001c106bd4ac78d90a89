@@ -1,0 +1,5 @@
+package org.generation.LojaGames.repository;
+
+public interface ProdutoRepository {
+
+}
