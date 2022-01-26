@@ -889,3 +889,101 @@ java.lang.Exception: Resource '/LojaDeGames/src/main/java/org/generation/LojaDeG
 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
 	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:77)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:16.653
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:16.658
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:16.660
+!MESSAGE buffering callback sts4.classpath.YzVnvmUd farmacia false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:16.793
+!MESSAGE executing callback sts4.classpath.YzVnvmUd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:18.796
+!MESSAGE executing callback sts4.classpath.YzVnvmUd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-01-25 23:54:18.797
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:18.799
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:18.810
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:18.818
+!MESSAGE buffering callback sts4.classpath.YzVnvmUd farmacia false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:18.819
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:18.830
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:18.838
+!MESSAGE buffering callback sts4.classpath.YzVnvmUd farmacia false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:18.839
+!MESSAGE executing callback sts4.classpath.YzVnvmUd 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.148
+!MESSAGE executing callback sts4.classpath.YzVnvmUd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.149
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.165
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.180
+!MESSAGE buffering callback sts4.classpath.YzVnvmUd farmacia false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.181
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.199
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.208
+!MESSAGE buffering callback sts4.classpath.YzVnvmUd farmacia false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.209
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.220
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.229
+!MESSAGE buffering callback sts4.classpath.YzVnvmUd farmacia false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.230
+!MESSAGE executing callback sts4.classpath.YzVnvmUd 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-25 23:54:20.947
+!MESSAGE executing callback sts4.classpath.YzVnvmUd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-26 00:34:54.893
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-26 00:34:54.895
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-26 00:34:54.896
+!MESSAGE buffering callback sts4.classpath.YzVnvmUd LojaDeGames false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-26 00:34:54.897
+!MESSAGE executing callback sts4.classpath.YzVnvmUd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-26 00:34:55.036
+!MESSAGE executing callback sts4.classpath.YzVnvmUd SUCCESS [done]
