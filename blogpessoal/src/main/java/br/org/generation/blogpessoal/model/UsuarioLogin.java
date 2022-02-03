@@ -2,13 +2,34 @@ package br.org.generation.blogpessoal.model;
 
 public class UsuarioLogin {
 
+	private Long id;
+	
 	private String nome;
 	
 	private String usuario;
 	
 	private String senha;
 	
+	private String foto;
+	
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getFoto() {
+		return foto;
+	}
+
+	public void setFoto(String foto) {
+		this.foto = foto;
+	}
+
 	private String token;
+	
 	
 
 	public String getNome() {
