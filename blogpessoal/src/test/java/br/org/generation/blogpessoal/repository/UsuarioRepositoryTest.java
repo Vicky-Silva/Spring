@@ -1,4 +1,4 @@
-package br.org.generation.repository;
+package br.org.generation.blogpessoal.repository;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -16,7 +16,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 
 import br.org.generation.blogpessoal.model.Usuario;
-import br.org.generation.blogpessoal.repository.UsuarioRepository;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
